@@ -26,5 +26,17 @@ bot.hears('What is the process of short-selling?', (ctx) => {
 bot.hears('What fees are incurred in short-selling?', (ctx) => {
     ctx.reply(`There is a fee to borrow shares of a stock. These fees can vary from broker to broker. The maximum fee that Rob will accept per share is equal to 1/5th the total potential profit on the trade. For example, if the potential profit on a trade is $1 per share, Rob will accept a maximum per-share borrow cost of .20. If you hold a short position overnight, you will be charged an overnight fee. You can check with your broker to find the overnight fees for a position. The fee will be different for every stock and every trade, so make sure to check with your broker. `)
 })
+bot.hears('What fees are incurred in short-selling?', (ctx) => {
+    ctx.reply(`There is a fee to borrow shares of a stock. These fees can vary from broker to broker. The maximum fee that Rob will accept per share is equal to 1/5th the total potential profit on the trade. For example, if the potential profit on a trade is $1 per share, Rob will accept a maximum per-share borrow cost of .20. If you hold a short position overnight, you will be charged an overnight fee. You can check with your broker to find the overnight fees for a position. The fee will be different for every stock and every trade, so make sure to check with your broker. `)
+})
+bot.hears('What fees are incurred in short-selling?', (ctx) => {
+    ctx.reply(`There is a fee to borrow shares of a stock. These fees can vary from broker to broker. The maximum fee that Rob will accept per share is equal to 1/5th the total potential profit on the trade. For example, if the potential profit on a trade is $1 per share, Rob will accept a maximum per-share borrow cost of .20. If you hold a short position overnight, you will be charged an overnight fee. You can check with your broker to find the overnight fees for a position. The fee will be different for every stock and every trade, so make sure to check with your broker. `)
+})
+bot.hears('What fees are incurred in short-selling?', (ctx) => {
+    ctx.reply(`There is a fee to borrow shares of a stock. These fees can vary from broker to broker. The maximum fee that Rob will accept per share is equal to 1/5th the total potential profit on the trade. For example, if the potential profit on a trade is $1 per share, Rob will accept a maximum per-share borrow cost of .20. If you hold a short position overnight, you will be charged an overnight fee. You can check with your broker to find the overnight fees for a position. The fee will be different for every stock and every trade, so make sure to check with your broker. `)
+})
+bot.hears('What fees are incurred in short-selling?', (ctx) => {
+    ctx.reply(`There is a fee to borrow shares of a stock. These fees can vary from broker to broker. The maximum fee that Rob will accept per share is equal to 1/5th the total potential profit on the trade. For example, if the potential profit on a trade is $1 per share, Rob will accept a maximum per-share borrow cost of .20. If you hold a short position overnight, you will be charged an overnight fee. You can check with your broker to find the overnight fees for a position. The fee will be different for every stock and every trade, so make sure to check with your broker. `)
+})
 
 bot.launch()
