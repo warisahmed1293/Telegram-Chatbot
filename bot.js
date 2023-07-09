@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf');
-
 require('dotenv').config()
+
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 const startMessage =
@@ -27,11 +27,43 @@ const ShortSellingQuestions =
 
 const moreShortSellingQuestions =
     `
-/Six_Question - What is short-selling?
-/Seven_Question - Does short-selling require a margin account?
-/Eight_Question - What is the process of short-selling?
-/Nine_Question - What fees are incurred in short-selling?
-/Ten_Question - Is short-selling dangerous? Is it more risky than buying stocks?
+/Six_Question - Do I have to return shares that I borrow? What happens to the shares that I borrow at the end of the day?
+/Seven_Question - Does Rob hold short positions overnight?
+/Eight_Question - Who invented short-selling?
+/Nine_Question - Why are short sellers called bears?
+/Ten_Question - What brokers can be used for shorting?
+/Eleve_Question - What is a “short interest”?
+What is the utilization rate of a stock?
+What happens if a short position moves against you?
+What happens if a company pays a dividend while you are short the stock?
+What is a “short squeeze”?
+What is a REG SHO notice?
+Can I buy a stock and go short at the same time?
+Can you short a stock with options?
+Can you short a recently IPO’d stock?
+What is the “Days to Cover” metric?
+What is the best time of day to short a stock?
+Why does Rob like short selling so much?
+What is a system 1 trade?
+What is a limit order?
+What is a stop order?
+What is a market order?
+What is the premarket session?
+What is the after hours session?
+What is the lowest float Rob will accept for shorting stocks?
+What is a halt? How do I trade when a stock halts?
+Where can I find the top gainers for the day?
+How does Rob use volume in his analysis for short trades?
+What is the best profit target for a short trade? 
+Does Rob hold short positions overnight?
+How does Rob use volume for buy trades?
+What is Rob’s system for buying stocks?
+What stocks are best for the Booker Breakout trade?
+Where does the stop-loss go on a Booker Breakout trade?
+What are fibonacci retracements?
+
+
+
 `
 
 bot.help((ctx) => {
@@ -96,6 +128,18 @@ All trading is risky.The risk in short - selling is that a stock will continue t
 
 Buying stocks is also risky.More traders buy stocks than short stocks - and most traders lose money.Therefore, plenty of traders who buy stocks lose a significant amount of money.The biggest priority when trading is to manage risk.A trader who manages his or her risk properly will always stop out of losing positions with a minimal loss.
 `)
+
+
+})
+bot.hears('/Eight_Question', (ctx) => {
+    ctx.reply(`
+There was this dude named Isaac Le Maire, a Dutch fellow, in 1609, who shorted shares in the Dutch East India Company. His attempt to depress the price of the shares failed, and he and his fellow speculators suffered large losses. As a side note, he had 22 children with the same wife.
+
+Jacob Little, known as The Great Bear of Wall Street, started shorting stocks in 1822. Little was born in Newburyport, Massachusetts, and moved to New York City in 1817, first clerking for Jacob Barker; he then opened his own establishment in 1822, and finally his own brokerage in 1834. A market pessimist, Little made his wealth "bearing stocks",[4] at turns short selling various companies and at others cornering markets to extract profits from other short sellers. Through his great financial foresight Little amassed an enormous fortune, becoming one of the richest men in America and one of the leading financiers on Wall Street in the 1830s and 1840s, but his speculative activities irritated his peers and earned him few admirers. Little lost and remade his legendary fortune multiple times before losing it for good in 1857;[note 1] although a great many owed him enormous debts, he was a generous creditor and never collected them, and at his deathbed in 1865 Little was penniless. Although well-known on the stock market in his time, he was quickly forgotten after his death, and today has been relegated to relative obscurity. 
+
+For more information about Jacob Little, go to his Wikipedia page here: https://en.wikipedia.org/wiki/Jacob_Little 
+
+    `)
 })
 
 
@@ -118,5 +162,15 @@ bot.command('info', ctx => {
 bot.hears('Start', ctx => {
     ctx.reply(startMessage)
 })
+bot.command('start', ctx => {
+    ctx.reply(startMessage)
+})
+
+const welcomeMessage = (ctx) => {
+    const welcomeText = `Welcome to the Chatbot! How can I assist you today?`;
+    ctx.reply(welcomeText);
+};
+
+bot.start(welcomeMessage);
 
 bot.launch()
