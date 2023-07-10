@@ -3,6 +3,7 @@ require('dotenv').config()
 
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
+
 const startMessage =
     `
 /Short_Selling - What is short selling?
@@ -10,7 +11,7 @@ const startMessage =
 `
 const categories =
     `
-    /Short_Selling_Questions - SHORT SELLING QUESTIONS
+/Short_Selling_Questions - SHORT SELLING QUESTIONS
 /Pivot_Questions - PIVOT QUESTIONS
 /General_Questions - GENERAL QUESTIONS
 `
@@ -166,11 +167,5 @@ bot.command('start', ctx => {
     ctx.reply(startMessage)
 })
 
-const welcomeMessage = (ctx) => {
-    const welcomeText = `Welcome to the Chatbot! How can I assist you today?`;
-    ctx.reply(welcomeText);
-};
-
-bot.start(welcomeMessage);
 
 bot.launch()
