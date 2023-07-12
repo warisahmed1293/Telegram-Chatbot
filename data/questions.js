@@ -1,15 +1,3 @@
-const startMessage =
-    `
-/Short_Selling - What is short selling?
-/Categories - What topics can I ask here?
-`
-const categories =
-    `
-/Short_Selling_Questions - SHORT SELLING QUESTIONS
-/Pivot_Questions - PIVOT QUESTIONS
-/General_Questions - GENERAL QUESTIONS
-`
-
 const ShortSellingQuestions =
     `
 /Question1 - What is short-selling?
@@ -65,8 +53,6 @@ const moreShortSellingQuestions =
 
 
 module.exports = {
-    startMessage,
-    categories,
     ShortSellingQuestions,
     moreShortSellingQuestions
 };
