@@ -25,8 +25,6 @@ bot.hears('/Question4', (ctx) => {
 
 bot.hears('/Question5', (ctx) => {
     ctx.reply(ShortSellingAwnser.ShortSellingAwnsers.awnserSs5)
-
-
 })
 
 bot.hears('/Question6', (ctx) => {
@@ -193,8 +191,32 @@ bot.hears('/GeneralQuestion3', (ctx) => {
     ctx.reply(ShortSellingAwnser.GeneralAwnsers.awnserG3)
 })
 
+//PIVOT Awnsers
 
-
+bot.hears('/PivotQuestion1', (ctx) => {
+    ctx.reply(ShortSellingAwnser.PivotAwnsers.awnserP1)
+})
+bot.hears('/PivotQuestion2', (ctx) => {
+    ctx.reply(ShortSellingAwnser.PivotAwnsers.awnserP2)
+})
+bot.hears('/PivotQuestion3', (ctx) => {
+    ctx.reply(ShortSellingAwnser.PivotAwnsers.awnserP3)
+})
+bot.hears('/PivotQuestion4', (ctx) => {
+    ctx.reply(ShortSellingAwnser.PivotAwnsers.awnserP4)
+})
+bot.hears('/PivotQuestion5', (ctx) => {
+    ctx.reply(ShortSellingAwnser.PivotAwnsers.awnserP5)
+})
+bot.hears('/PivotQuestion6', (ctx) => {
+    ctx.reply(ShortSellingAwnser.PivotAwnsers.awnserP6)
+})
+bot.hears('/PivotQuestion7', (ctx) => {
+    ctx.reply(ShortSellingAwnser.PivotAwnsers.awnserP7)
+})
+bot.hears('/PivotQuestion8', (ctx) => {
+    ctx.reply(ShortSellingAwnser.PivotAwnsers.awnserP8)
+})
 
 
 
@@ -216,6 +238,14 @@ bot.action('shortSellingQuestions', (ctx) => {
                 ]
             }
         })
+})
+
+bot.action('GeneralQuestions', (ctx) => {
+    bot.telegram.sendMessage(ctx.chat.id, questions.GeneralQuestions)
+})
+
+bot.action('PivotQuestions', (ctx) => {
+    bot.telegram.sendMessage(ctx.chat.id, questions.PivotQuestions)
 })
 
 

@@ -255,8 +255,68 @@ If you are struggling with your trading, do the following:
     `
 
 }
+const PivotAwnsers = {
+    awnserP1: `
+To answer that, let’s start with the definition of a monthly pivot point. A monthly pivot point is a horizontal line. I color them purple. It is calculated by adding together last month’s high price, low price, and closing price - and then dividing that number by three.
 
+If last month’s high price was 100, and the low price was 100, and the closing price was 100 (this is technically impossible, but we’ll just say that’s what it was); then we could add those numbers together. That would equal 300. Then we would divide that number by three - and we’d get 100. That would display the monthly pivot at $100 per share. 
+
+Now, for ghost pivots.
+
+A MONTHLY ghost pivot is next month’s pivot that technically hasn’t formed yet, because it is not yet the end of the month. But it is drawn as if the end of the month is right now.
+
+For instance, the July monthly pivot for the stock TSLA cannot (technically) show up on any chart, because we don’t know what the high of June is, the low of June is or the closing price for the month of June is. To really show the July monthly pivot, we need to wait until the market closes on June 30. Then we know what the high, low, and closing prices were for TSLA in June.
+
+I invented a “ghost pivot” so that I could see where the July pivot would be TODAY, if the last day of June were today. I know that today is not the last day of June. But if I wanted to see the July pivot, my ghost pivot indicator would simply calculate the July pivot using the high, low and most recent closing price of TSLA for the month of June. 
+
+    `,
+    awnserP2: `
+Because at the end of every month, for some unexplained reason, stocks will start to move toward the level where next month’s pivot will be. Seeing the ghost pivot gives me an idea of where a stock is going to.
+    `,
+    awnserP3: `
+A pivot point is “hit,” or “reached,” when it is touched by price. 
+    `,
+    awnserP4: `
+Price has not touched the pivot either in the month it was created or any subsequent month.
+
+A pivot that has not been hit in the current month (the June pivot during the month of June) is unhit.
+
+A pivot point that was unhit last month, and has not yet been hit (or reached) by price in a subsequent month, is called a missed pivot.
+
+Hit/Unhit is used for the current month.
+
+Missed is a term used for past months.
+
+    `,
+    awnserP5: `
+After the market closes on the last day of the month, a new month’s pivot is created. When the market closes on June 30 (or whatever day the last market day in June is), the July pivot will be created. It cannot move after this time.
+    `,
+    awnserP6: `
+    
+In tradingview, go to indicators.
+
+Choose standard pivot points.
+
+Then change “pivots timeframe” to monthly. 
+
+Then change the colors as follows (and uncheck the boxes you see unchecked below).
+
+    `,
+    awnserP7: `
+I don’t know what your main chart is. So I will answer just with the chart time frame I use pivots on.
+
+But for me, I use a 1 hour or a 4 hour chart to show monthly pivots and monthly ghost pivots.
+
+    `,
+    awnserP8: `
+There are no rules for it. You might use monthly pivots to see where price might be going if it is rising (the monthly pivot point could be a profit target above) or if it is falling (the monthly pivot could be a profit target below).
+
+When I am shorting a stock, I like to make sure there is NO monthly pivot above price, close by, that has NOT been hit. If there is an unhit or missed monthly pivot above price, the stock may not be done rising.
+
+    `
+}
 module.exports = {
     ShortSellingAwnsers,
-    GeneralAwnsers
+    GeneralAwnsers,
+    PivotAwnsers
 };

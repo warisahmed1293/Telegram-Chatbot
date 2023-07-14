@@ -58,9 +58,19 @@ const GeneralQuestions = `
 /GeneralQuestion2 - How do I find the Rob Booker Chat Groups?
 /GeneralQuestion3 - What should I do if I am struggling with my trading, or not having success, or if I keep losing?
 `
-
+const PivotQuestions = `
+/PivotQuestion1 - What is a ghost Pivot Point?
+/PivotQuestion2 - Why have a ghost pivot, then?
+/PivotQuestion3 - How do you determine if a Pivot Point has been reached for the month?
+/PivotQuestion4 - How do you determine if a Pivot Point has NOT been reached?
+/PivotQuestion5 - What causes the value of a Pivot Point to increase or decrease?
+/PivotQuestion6 - How do you draw a Pivot Points? 
+/PivotQuestion7 - In class, I have watched you reference Pivot Points to a 2 and/or 4 hour chart.  What does that mean?  How are these charts drawn and used?  Are these charts different from the main chart (meaning the main chart, which indicates the VWAP, 200 MA, etc.)?  How do I use the Pivot Points on my main chart?
+/PivotQuestion8 - What are the rule(s) for using Pivot Points as part of the technical analysis?
+`
 module.exports = {
     ShortSellingQuestions,
     moreShortSellingQuestions,
-    GeneralQuestions
+    GeneralQuestions,
+    PivotQuestions
 };
