@@ -215,6 +215,48 @@ Once these levels are identified, horizontal lines are drawn and used to identif
 
 }
 
+const GeneralAwnsers = {
+    awnserG1: `
+The Rob Booker chat groups include the:
+
+1. General Trade Chat: this is for posting trade plans, watchlists, updates on open trades, and news about the markets that relate to our planned trades. The general chat should not be used to say “good morning,” or chat about favorite movies, recipes, or anything unrelated to planned or open trades. 
+
+2. Questions Chat: This chat is for asking questions about our trading methods and systems. Rob and others will answer the questions in this chat group.
+
+3. The Lounge: The Lounge is a place to talk about anything you want, on any topic except for politics and religion. 
+
+4. The Results Group: This group is for posting the results of your closed trades, to keep yourself accountable and to celebrate your successes, and to also get help when you are struggling.
+
+    `,
+    awnserG2: `
+The chat groups are hosted inside Telegram Messenger, which is an app you can install on your phone and computer. 
+
+To access the chat groups, look for an email with a subject line containing the words “9:22am Club Links”. The links to the chat groups are inside that email.
+    `,
+    awnserG3: `
+If you are struggling with your trading, do the following:
+
+1. Stop trading for at least a day, and possibly longer. While you stop trading, work on the items on this list.
+
+2. Check your trade size. Are you trading a trade size so big that you are nervous about your trades? Reducing your trade size can immediately improve your trading, as it leads to less emotional trading.
+
+3. Are you placing your stops in the right place? Some traders, in an effort to “better manage risk,” will use a stop so tight they are virtually guaranteed to stop out. If you are worried that the recommended stop loss areas are too big, then reduce the size of your trades.
+
+4. Check your profit target levels. Sometimes a trader will get greedy and place a far-away profit target level that is very difficult for a stock to reach. If you want to build some confidence, consider placing your profit target closer to your entry, getting some wins, and then gradually increasing the profit target level - or taking half your profit target at a nearby level and then letting the rest of the trade run with a stop loss at break even.
+
+5. Check your emotions. Do you feel a significant amount of anxiety when trading? If so, you might consider greatly reducing the size of your trades or even paper trading for a period of time until you feel less anxious about your trades.
+
+6. Are you posting your trade plans in the Trades chat group? The most important prep work you can do for a trade is to post your plans in the group - and get comments on those plans. You can also post a chart with marks on where you entered and exited, plus notes about the trade, in the Results group, so that others can comment and help.
+
+7. Are you trading several systems/alerts? If you are trading too many systems, or following alerts from different sources, you may find that your trading is inconsistent. Is is a good idea to focus on one method at a time, and master that method before moving on to anything else. A good place to start is the Booker Breakout method for buying stocks.
+
+8. Are you following the rules of the strategy / system you are trading? Sometimes, we adjust the entries or exits without really thinking too much about it. Small changes to a system can have a significant effect. Most traders do not realize how important it is to stay on track with a set of rules, and focus on one strategy / system. 
+
+    `
+
+}
+
 module.exports = {
-    ShortSellingAwnsers
+    ShortSellingAwnsers,
+    GeneralAwnsers
 };

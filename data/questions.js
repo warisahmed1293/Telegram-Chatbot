@@ -53,9 +53,14 @@ const moreShortSellingQuestions =
 /Question43 - What are fibonacci retracements?
 `
 
-
+const GeneralQuestions = `
+/GeneralQuestion1 - What are the Rob Booker chat groups?
+/GeneralQuestion2 - How do I find the Rob Booker Chat Groups?
+/GeneralQuestion3 - What should I do if I am struggling with my trading, or not having success, or if I keep losing?
+`
 
 module.exports = {
     ShortSellingQuestions,
-    moreShortSellingQuestions
+    moreShortSellingQuestions,
+    GeneralQuestions
 };

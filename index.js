@@ -181,6 +181,17 @@ bot.hears('/Question43', (ctx) => {
     ctx.reply(ShortSellingAwnser.ShortSellingAwnsers.awnserSs43)
 })
 
+//General Awnsers
+
+bot.hears('/GeneralQuestion1', (ctx) => {
+    ctx.reply(ShortSellingAwnser.GeneralAwnsers.awnserG1)
+})
+bot.hears('/GeneralQuestion2', (ctx) => {
+    ctx.reply(ShortSellingAwnser.GeneralAwnsers.awnserG2)
+})
+bot.hears('/GeneralQuestion3', (ctx) => {
+    ctx.reply(ShortSellingAwnser.GeneralAwnsers.awnserG3)
+})
 
 
 
