@@ -27,7 +27,7 @@ bot.hears('/Question5', (ctx) => {
     ctx.reply(ShortSellingAwnser.ShortSellingAwnsers.awnserSs5)
 })
 
-bot.hears('/Question6', (ctx) => {
+bot.hears('/Question6', (ctx) => {  
     ctx.reply(ShortSellingAwnser.ShortSellingAwnsers.awnserSs6)
 })
 

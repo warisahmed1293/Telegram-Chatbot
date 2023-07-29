@@ -6,10 +6,17 @@ Expand your horizons 🌟 Click for a wider range of course categories!
 /Question1 - What is short-selling?
 /Question2 - Does short-selling require a margin account?
 /Question3 - What is the process of short-selling?
+`
+
+const shortSellingQuestionsTWO = `
 /Question4 - What fees are incurred in short-selling?
 /Question5 - Is short-selling dangerous? Is it more risky than buying stocks?
 /Question6 - Do I have to return shares that I borrow? What happens to the shares that I borrow at the end of the day?
 /Question7 - Does Rob hold short positions overnight?
+
+`
+
+const shortSellingQuestionsTHREE = `
 /Question8 - Who invented short-selling?
 /Question9 - Why are short sellers called bears?
 /Question10 - What brokers can be used for shorting?
@@ -24,7 +31,7 @@ Expand your horizons 🌟 Click for a wider range of course categories!
 /Question19 - Can you short a stock with options?
 /Question20 - Can you short a recently IPO’d stock?
 /Question21 - What is the “Days to Cover” metric?
-/More_Question - Tap More Question to show more questions related Short Selling
+
 `
 
 const moreShortSellingQuestions =
