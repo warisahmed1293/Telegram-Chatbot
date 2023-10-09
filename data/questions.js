@@ -17,7 +17,7 @@ const shortSellingQuestionsTWO = `
 `
 
 const shortSellingQuestionsTHREE = `
-/Question8 - Who invented short-selling?
+/Question8 - Who invented short-selling? 
 /Question9 - Why are short sellers called bears?
 /Question10 - What brokers can be used for shorting?
 /Question11 - What is a “short interest”?
