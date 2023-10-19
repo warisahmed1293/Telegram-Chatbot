@@ -6,7 +6,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 const ShortSellingAwnser = require('./data/anwsers')
 
 const questions = require('./data/questions');
-
+ 
 bot.hears('/Question1', (ctx) => {
     ctx.reply(ShortSellingAwnser.ShortSellingAwnsers.awnserSs1)
 })
