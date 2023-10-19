@@ -9,7 +9,7 @@ const questions = require('./data/questions');
   
 bot.hears('/Question1', (ctx) => {
     ctx.reply(ShortSellingAwnser.ShortSellingAwnsers.awnserSs1)
-})
+}) 
 
 bot.hears('/Question2', (ctx) => {
     ctx.reply(ShortSellingAwnser.ShortSellingAwnsers.awnserSs2)
