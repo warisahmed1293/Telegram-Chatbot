@@ -7,7 +7,7 @@ const ShortSellingAwnsers = {
     To profit from a decrease in the price of a security, a short seller can borrow the security and sell it, expecting that it will be cheaper to repurchase in the future.When the seller decides that the time is right(or when the lender recalls the securities), the seller buys the same number of equivalent securities and returns them to the lender.The act of buying back the securities that were sold short is called covering the short, covering the position, or simply covering.A short position can be covered at any time before the securities are due to be returned.Once the position is covered, the short seller is not affected by subsequent rises or falls in the price of the securities, for it already holds the securities that it will return to the lender.
 
     `,
-    awnserSs2: `
+    awnserSs2: ` 
     Yes, short - selling requires a margin account because to initiate a short position, you must first borrow a stock.Short - selling cannot be done in a cash account.
     `,
     awnserSs3: `
