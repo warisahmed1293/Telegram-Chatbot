@@ -4,7 +4,7 @@ Expand your horizons 🌟 Click for a wider range of course categories!
 
 
 /Question1 - What is short-selling? 
-/Question2 - Does short-selling require a margin account?
+/Question2 - Does short-selling require a margin account? 
 /Question3 - What is the process of short-selling?
 `
 
